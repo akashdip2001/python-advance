@@ -1,9 +1,11 @@
-# Run .Py
+# Concepts
+
+## Run .Py
 ```
 >>> python .\hellow.py
 ```
 
-# Comments
+## Comments
 ```
 `#` Single line comment
 ```
@@ -15,7 +17,7 @@ Multi line comments
 
 ---
 
-# Variables and constants
+## Variables and constants
 
 CONSTANT = 1, 2, 3
 
@@ -31,7 +33,7 @@ So, name is a variable and value is a constant
 
 ---
 
-# [Data Types](https://github.com/akashdip2001/ML-Machine-Learning/blob/main/py/README.md#data-types)
+## [Data Types](https://github.com/akashdip2001/ML-Machine-Learning/blob/main/py/README.md#data-types)
 
 **Example of ✅ Variables with ➡️ Data-Types:**
 
@@ -57,9 +59,9 @@ print(type(height))
 
 ---
 
-# [Type Casting](https://github.com/akashdip2001/ML-Machine-Learning/blob/main/py/README.md#input-output)
+## [Type Casting](https://github.com/akashdip2001/ML-Machine-Learning/blob/main/py/README.md#input-output)
 
-## ✅ Ex 1
+### ✅ Ex 1
 
 ```python
 a=1
@@ -73,7 +75,7 @@ output:
 1.0
 ```
 
-## ✅ Ex 2
+### ✅ Ex 2
 
 - **In python , always take input as a String.**
 - 1st we take an input and store in a variable.
@@ -104,7 +106,7 @@ print(type(variable))
 
 ---
 
-# [Operators](https://github.com/akashdip2001/ML-Machine-Learning/blob/main/py/README.md#operators)
+## [Operators](https://github.com/akashdip2001/ML-Machine-Learning/blob/main/py/README.md#operators)
 
 a = 100
 b = 200
@@ -117,7 +119,7 @@ b = 200
 
 ---
 
-# Input
+## Input
 
 ```python
 city = input("Enter your city Name! ")
@@ -130,7 +132,7 @@ output
 #Your city name is : Haldia
 ```
 
-# String Formatting
+## String Formatting
 
 ```python
 city = input("Enter your city Name! ")
@@ -143,7 +145,7 @@ output
 #Your city name is : Haldia
 ``` 
 
-# Manipulate Strings
+## Manipulate Strings
 
 ```python
 name1 = input("Enter your name :")
@@ -173,7 +175,28 @@ Enter Your Frd. name :B
 Hellow friends, this is A
 Hellow B, this is A
 ['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
-PS C:\Users\akash\Desktop\Py Projects\python-advance\Py for DevOps\Day 1> 
 ```
 
+### This Way
 
+```python
+a = 5
+print(dir(a))
+```
+and you get everything you do with this integer. ...
+
+---
+---
+
+# Conditionals
+
+### indentation <`4 block space`>
+
+```python
+a = 10
+b = 30
+c = 50
+
+if a > b:
+    print("A is bigger")
+```
