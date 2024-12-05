@@ -137,7 +137,21 @@ output
 #Enter your city Name! Haldia
 #Your city name is : Haldia
 ```
+```python
+name1 = input("Enter your name :")
+name2 = input("Enter Your Frd. name :")
 
+about = f"Hellow friends, this is {name1}"
+print(about)
+
+x = about.replace("friends",name2)
+print(x)
+```
+output:
+```bash
+#Hellow friends, this is Akashdip
+#Hellow XYZ, this is Akashdip
+```
 
 
 
