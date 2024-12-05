@@ -9,10 +9,21 @@ c = 50
 
 
 
-env = "dev"
-# env = "prod" # or prd
+# env = "dev"
+# # env = "prod" # or prd
 
-if env == "dev":
-    print("Yes this is")
+# if env == "dev":
+#     print("Yes this is")
+# else:
+#     print("No, it's not")
+
+
+
+if a > b and a > c:
+    print("A is biggest among a, b, c")
+elif b > a and b > c:
+    print("B is biggest")
+elif c > a and c > b:
+    print("C is biggest")
 else:
-    print("No, it's not")
+    print("All are equal")
