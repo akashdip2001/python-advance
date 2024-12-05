@@ -54,7 +54,13 @@ print(type(height))
 
 # [Type Casting](https://github.com/akashdip2001/ML-Machine-Learning/blob/main/py/README.md#input-output)
 
-## ✅ Input Output
+## ✅ Ex 1
+
+```
+print(a)
+print(float(a))
+
+## ✅ Ex 2
 
 - **In python , always take input as a String.**
 - 1st we take an input and store in a variable.
