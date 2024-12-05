@@ -105,10 +105,38 @@ a = 100
 b = 200
 
 - Arithmetic Operators `+ - * /`
-- Assignment Operators `=` c = (a + b)
+- Assignment Operators `=` , c = (a + b)
 - Comparison Operators `< > <= >= ==` 
 - Incrementing and Decrementing Operators
-- Logical Operators
+- Logical Operators `& | !` `and` `or` `not`
+
+---
+
+# Input
+
+```python
+city = input("Enter your city Name! ")
+
+print("Your city name is :",city)
+```
+output
+```
+Enter your city Name! Haldia
+Your city name is : Haldia
+```
+
+# String Formatting
+
+```python
+city = input("Enter your city Name! ")
+
+print(f"Your city name is : {city}")
+```
+output
+```
+Enter your city Name! Haldia
+Your city name is : Haldia
+```
 
 
 

@@ -5,3 +5,8 @@ print(2+2)
 a=1
 print(a)
 print(float(a))
+
+# Input
+city = input("Enter your city Name !")
+# print("Your city name is :",city)
+print(f"Your city name is : {city}")
