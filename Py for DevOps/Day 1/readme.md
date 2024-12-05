@@ -200,3 +200,15 @@ c = 50
 if a > b:
     print("A is bigger")
 ```
+
+#### Ex: 1
+
+```python
+env = "dev"
+# env = "prod"
+
+if env == "dev":
+    print("Yes this is")
+else:
+    print("No, it's not")
+```
