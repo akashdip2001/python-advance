@@ -121,8 +121,8 @@ print("Your city name is :",city)
 ```
 output
 ```bash
-Enter your city Name! Haldia
-Your city name is : Haldia
+#Enter your city Name! Haldia
+#Your city name is : Haldia
 ```
 
 # String Formatting
@@ -134,8 +134,8 @@ print(f"Your city name is : {city}")
 ```
 output
 ```bash
-Enter your city Name! Haldia
-Your city name is : Haldia
+#Enter your city Name! Haldia
+#Your city name is : Haldia
 ```
 
 
