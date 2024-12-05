@@ -108,7 +108,7 @@ b = 200
 - Assignment Operators `=` , c = (a + b)
 - Comparison Operators `< > <= >= ==` 
 - Incrementing and Decrementing Operators
-- Logical Operators `& | !` `and` `or` `not`
+- Logical Operators `& | !` --> `and` `or` `not`
 
 ---
 
@@ -120,7 +120,7 @@ city = input("Enter your city Name! ")
 print("Your city name is :",city)
 ```
 output
-```
+```bash
 Enter your city Name! Haldia
 Your city name is : Haldia
 ```
@@ -133,7 +133,7 @@ city = input("Enter your city Name! ")
 print(f"Your city name is : {city}")
 ```
 output
-```
+```bash
 Enter your city Name! Haldia
 Your city name is : Haldia
 ```
