@@ -56,9 +56,17 @@ print(type(height))
 
 ## ✅ Ex 1
 
-```
+```python
+a=1
+
 print(a)
 print(float(a))
+```
+output:
+```go
+1
+1.0
+```
 
 ## ✅ Ex 2
 
@@ -90,5 +98,18 @@ print(type(variable))
 ```
 
 ---
+
+# [Operators](https://github.com/akashdip2001/ML-Machine-Learning/blob/main/py/README.md#operators)
+
+a = 100
+b = 200
+
+- Arithmetic Operators `+ - * /`
+- Assignment Operators `=` c = (a + b)
+- Comparison Operators `< > <= >= ==` 
+- Incrementing and Decrementing Operators
+- Logical Operators
+
+
 
 
