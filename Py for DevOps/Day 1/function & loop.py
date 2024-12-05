@@ -27,4 +27,11 @@ def Check_biggest(a, b, c):
 
 
 
-Check_biggest(10, 20, 30)
+# Check_biggest(10, 20, 30)
+# Check_biggest(10, 20, 30)
+# Check_biggest(10, 20, 30)
+# Check_biggest(10, 20, 30)
+# Check_biggest(10, 20, 30)
+
+for i in range(1,6):
+    Check_biggest(10, 20, 30)
