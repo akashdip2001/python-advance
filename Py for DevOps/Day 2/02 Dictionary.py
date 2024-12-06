@@ -1,0 +1,5 @@
+## Dictionary
+
+data = {
+    "name" : "Akashdip"
+}
