@@ -45,6 +45,5 @@ Output:
 | [more code examples](https://github.com/LondheShubham153/python-masterclass/tree/master/intermediate) |
 | --- |
 
-| [Next : Day 2 : OOP](../Day%202.3%20-%20OOPs/readme.md) |
-| --- |
+# [Next : Day 2 : OOP](../Day%202.3%20-%20OOPs/readme.md) 
 
