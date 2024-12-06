@@ -264,10 +264,10 @@ Now I have my own function with own logic.
 ### Data Structures is a subset of DSA.
 ### Data Structures --> How your data has organize.
 
-- List: collection pof data [1, 2.5, True, "String", 2.5]
-- Sets: collection of uniq elements {1, 2, 3}
-- Dict: key with its value {'age': 21}
-- Tuple: same as `List` but can't Remove or edit (1, 2, 3)
-- Array (not core in python): only smiler Data types -> only int or only float...
+- [List]: collection pof data [1, 2.5, True, "String", 2.5]
+- [Sets]: collection of uniq elements {1, 2, 3}
+- [Dict]: key with its value {'age': 21}
+- [Tuple]: same as `List` but can't Remove or edit (1, 2, 3)
+- [Array (not core in python)]: only smiler Data types -> only int or only float...
 
 
