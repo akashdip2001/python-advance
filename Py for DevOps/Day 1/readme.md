@@ -271,4 +271,4 @@ Now I have my own function with own logic.
 - [Array (not core in python)](https://github.com/akashdip2001/ML-Machine-Learning/tree/main/py#arrays) : only smiler Data types -> only int or only float...
 
 
-# [Day 2](../Day%202/readme.md)
+# [Next : **Day 2**](../Day%202/readme.md)
