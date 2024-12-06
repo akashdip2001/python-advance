@@ -53,6 +53,19 @@ $:
 
 ## Dictionary
 
+```python
 data = {
-    "name" : "Akashdip"
+    "name" : "Akashdip",
+    "age" : 21,
+    "city" : "Kolkata",
+    "country" : "India",
+    "is_student" : True
 }
+
+# print(data)
+print(data["name"])
+
+# data.update({"name" : "Akash"})
+data.update({"envirorment": envirorment})
+print(data)
+```
