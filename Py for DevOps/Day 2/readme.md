@@ -69,3 +69,45 @@ print(data["name"])
 data.update({"envirorment": envirorment})
 print(data)
 ```
+
+output:
+```bash
+$: Akashdip
+$: {'name': 'Akashdip', 'age': 21, 'city': 'Kolkata', 'country': 'India', 'is_student': True, 'envirorment': ['dev', 'prd', 'stg', 'test', 'bastion']}
+```
+
+---
+
+## Sets
+```python
+data = {}
+print(type(data))
+# output: <class 'dict'>
+```
+```python
+data = {1}
+print(type(data))
+# output: <class 'set'>
+```
+### Remove duplicates
+```python
+device_id = {1, 2, 3, 3, 4, 5, 5} # Total 7 elements
+print(len(device_id)) # But output: 5
+## Remove duplicates
+```
+```python
+new_id = {6, 7, 8, 9, 10, 10, 1}
+print(device_id.union(new_id)) # output: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+print(device_id.intersection(new_id)) # output: {1}
+```
+
+---
+
+# Tuples
+
+#### Tuples are immutable, ordered collections of elements. They are similar to lists, but they cannot be changed after they are created. Tuples are defined using parentheses () and elements are separated by commas.
+```python
+days_of_week = ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')
+print(type(days_of_week)) # output: <class 'tuple'>
+print(days_of_week[0]) # output: Monday
+```
