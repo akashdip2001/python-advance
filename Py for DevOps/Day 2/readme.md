@@ -12,13 +12,11 @@
 - [Tuple](https://github.com/akashdip2001/ML-Machine-Learning/tree/main/py#tuple)   : same as `List` but can't Remove or edit `(1, 2, 3)`
 - [Array (not core in python)](https://github.com/akashdip2001/ML-Machine-Learning/tree/main/py#arrays) : only smiler Data types -> only int or only float...
 
-
-# [Next : **Day 2**](../Day%202/readme.md)
-
+---
 
 ## Data Structures
 
-## List
+## ☀️ List
 ```python
 ## List
 
@@ -51,7 +49,7 @@ $:
 
 ---
 
-## Dictionary
+## ☀️ Dictionary
 
 ```python
 data = {
@@ -78,7 +76,7 @@ $: {'name': 'Akashdip', 'age': 21, 'city': 'Kolkata', 'country': 'India', 'is_st
 
 ---
 
-## Sets
+## ☀️ Sets
 ```python
 data = {}
 print(type(data))
@@ -103,7 +101,7 @@ print(device_id.intersection(new_id)) # output: {1}
 
 ---
 
-# Tuples
+## ☀️ Tuples
 
 #### Tuples are immutable, ordered collections of elements. They are similar to lists, but they cannot be changed after they are created. Tuples are defined using parentheses () and elements are separated by commas.
 ```python
@@ -114,13 +112,13 @@ print(days_of_week[0]) # output: Monday
 
 ---
 
-# array
-### not core Data Structure in python
-### array is a module in python
+## ⚠️ array
 
-#### array is a list of elements of the same type
-#### array is faster than list
-#### array is used when we need to store large number of elements of the same type
+#### not core Data Structure in python
+#### array is a module in python
+##### array is a list of elements of the same type
+##### array is faster than list
+##### array is used when we need to store large number of elements of the same type
 ```python
 import array
 
