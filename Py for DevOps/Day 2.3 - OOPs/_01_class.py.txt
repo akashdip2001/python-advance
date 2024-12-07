@@ -1,0 +1,66 @@
+# ## for Linux + Windows
+
+import os
+import subprocess
+import platform
+
+class Utils:
+    def show_disk_space(self):
+        try:
+            if platform.system() == "Windows":
+                # Disk space on Windows
+                result = subprocess.check_output("wmic logicaldisk get size,freespace,caption", shell=True, text=True)
+            else:
+                # Disk space on Linux/Mac
+                result = subprocess.check_output("df -h", shell=True, text=True)
+            print(result)
+        except Exception as e:
+            print(f"Error fetching disk space: {e}")
+
+    def show_memory(self):
+        try:
+            if platform.system() == "Windows":
+                # Memory info on Windows
+                result = subprocess.check_output("wmic OS get FreePhysicalMemory,TotalVisibleMemorySize", shell=True, text=True)
+            else:
+                # Memory info on Linux/Mac
+                result = subprocess.check_output("free -m", shell=True, text=True)
+            print(result)
+        except Exception as e:
+            print(f"Error fetching memory: {e}")
+
+    def show_cpu(self):
+        try:
+            if platform.system() == "Windows":
+                # CPU info on Windows
+                result = subprocess.check_output("wmic cpu get name", shell=True, text=True)
+            else:
+                # CPU info on Linux/Mac
+                result = subprocess.check_output("lscpu", shell=True, text=True)
+            print(result)
+        except Exception as e:
+            print(f"Error fetching CPU info: {e}")
+
+    def show_system_info(self):
+        try:
+            if platform.system() == "Windows":
+                # Windows doesn't have os.uname, so use os.name
+                print(f"System: {os.name}")
+            else:
+                # On Linux/Mac, os.uname provides system information
+                print(f"System: {os.uname().sysname}")
+        except Exception as e:
+            print(f"Error fetching system info: {e}")
+
+
+# Object to reuse the blueprint
+PC_1 = Utils()
+print("Disk Space Info:")
+PC_1.show_disk_space()
+
+PC_2 = Utils()
+print("\nCPU Info:")
+PC_2.show_cpu()
+
+print("\nSystem Info:")
+PC_2.show_system_info()
