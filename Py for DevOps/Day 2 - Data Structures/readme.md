@@ -1,5 +1,16 @@
 # [Pre : **Day 1**](../Day%201/readme.md)
 
+---
+
+- Day 2
+
+05) [ ] Networking & API Interactions
+06) [x] Core Date Structures (DSA)
+07) [ ] OOP
+08) [ ] Infrastructure as Code
+
+---
+
 
 # [core Data Structures](https://github.com/akashdip2001/ML-Machine-Learning/tree/main/py#list-tuple-set-dict)
 
@@ -129,3 +140,4 @@ print(arr[2])
 ---
 
 # [Next : **API Test**](../Day%202.2%20-%20API%20test/readme.md)
+# [Next-Next : **docker-using-python**](../Day%202.3%20-%20OOPs/readme.md)

@@ -1,3 +1,10 @@
+- Day 1
+01) Introduction
+02) Python Basics for DevOps
+03) Control Flow & Functions
+
+---
+
 # Concepts
 
 ## Run .Py

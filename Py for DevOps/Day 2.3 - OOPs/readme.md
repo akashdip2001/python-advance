@@ -1,4 +1,14 @@
+# [Pre-Pre : Data Str.](../Day%202%20-%20Data%20Structures/readme.md)
 # [Pre : API test](../Day%202.2%20-%20API%20test/readme.md)
+
+---
+
+- Day 2
+
+05) [ ] Networking & API Interactions
+06) [ ] Core Date Structures (DSA)
+07) [x] OOP
+08) [ ] Infrastructure as Code
 
 ---
 
@@ -114,3 +124,4 @@ print(K)
 | [refine code](./DevOps_command.py) |
 | --- |
 
+# [](../Day%203/)

@@ -1,5 +1,12 @@
 # [Pre : **Day 2 : Data Structures**](../Day%202%20-%20Data%20Structures/readme.md)
 
+- Day 2
+
+05) [x] Networking & API Interactions
+06) [ ] Core Date Structures (DSA)
+07) [ ] OOP
+08) [ ] Infrastructure as Code
+
 ---
 
 ## As a DevOps Engineer, Your Developer has an API (Application Programming Interface) that you need to test.
