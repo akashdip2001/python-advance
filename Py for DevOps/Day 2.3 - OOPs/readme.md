@@ -8,7 +8,7 @@
 
 ### ✅ OOP_YouTube [( video_1, or](https://youtu.be/Rq_3gA2h1RA) [video_2, or](https://youtu.be/70JeRslVOrk) [video_3 )](https://youtu.be/6soT3DMBJGQ)
 
-## Check the .py files
+## ☀️ Check the .py files
 
 ```python
 import requests
@@ -79,3 +79,20 @@ Weather report: Mumbai
 # Location: Mumbai, Greater Bombay, Maharashtra, India [18.9321862,72.8308337]               0.0 mm                0.0 mm
 ```
 
+# DevOps - Terraform 
+
+### [more : gitHub link](https://github.com/LondheShubham153/python-masterclass/blob/master/intermediate/terra_deploy.py)
+
+```python
+#### $: kubectl get nodes
+#### $: docker ps
+#### ⬆️ check with python
+#### https://github.com/LondheShubham153/python-masterclass/blob/master/intermediate/terra_deploy.py
+
+
+import subprocess
+
+def run_command(command):
+    subprocess.run(command, shell=True, check=True,stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+```
