@@ -93,6 +93,24 @@ Weather report: Mumbai
 import subprocess
 
 def run_command(command):
-    subprocess.run(command, shell=True, check=True,stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    subprocess.run(command, 
+                   shell=True, 
+                   check=True,
+                   stdin=subprocess.PIPE, 
+                   stdout=subprocess.PIPE, 
+                   stderr=subprocess.PIPE
+                   )
+    
+    return process.stdout.decode()
 
+X = run_command("docker ps")
+Y = run_command("docker images")
+print(X)
+print(Y)
+
+K = run_command("kubectl get nodes")
+print(K)
 ```
+| [refine code](./DevOps_command.py) |
+| --- |
+

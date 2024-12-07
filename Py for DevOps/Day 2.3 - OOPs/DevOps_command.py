@@ -25,3 +25,29 @@ print(Y)
 K = run_command("kubectl get nodes")
 print(K)
 
+
+## Updated code
+
+# import subprocess
+
+# def run_command(command):
+#     try:
+#         process = subprocess.run(command, 
+#                                  shell=True, 
+#                                  check=True, 
+#                                  stdin=subprocess.PIPE, 
+#                                  stdout=subprocess.PIPE, 
+#                                  stderr=subprocess.PIPE)
+#         return process.stdout.decode()
+#     except subprocess.CalledProcessError as e:
+#         print(f"Command failed: {command}")
+#         print(f"Error output: {e.stderr.decode()}")
+#         return None
+
+# # Test the Docker command
+# X = run_command("docker ps")
+# if X:
+#     print(X)
+# else:
+#     print("Failed to execute 'docker ps'. Please check Docker installation or permissions.")
+
