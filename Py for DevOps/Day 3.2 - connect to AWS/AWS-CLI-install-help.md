@@ -15,6 +15,11 @@ Ensure you have the necessary tools installed.
    sudo apt update
    sudo apt upgrade -y
    ```
+   
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/0b4cf318-78bc-4349-a5db-e4b95d4b2787" alt="Image 1" width="45%" />
+  <img src="https://github.com/user-attachments/assets/fa013739-733d-41d2-9735-2f7048d6b2d3" alt="Image 2" width="45%" />
+</p>
 
 2. **Install required tools (`curl`, `unzip`):**
    ```bash
