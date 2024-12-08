@@ -30,5 +30,5 @@
 # AWS [student](https://aws.amazon.com/education/awseducate/) account
 
 - [ ] first create a AWS [Free-Tier](https://aws.amazon.com/free) / student account.
-- [ ] Download [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions) to acces from Terminal.
+- [ ] Download [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions) to acces from Terminal. [help](./AWS-CLI-install-help.md)
 
