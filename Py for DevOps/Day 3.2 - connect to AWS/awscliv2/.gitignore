@@ -1,0 +1,9 @@
+# Ignore the AWS CLI installation directory
+aws/
+
+# Ignore the zip file
+awscliv2.zip
+
+# Ignore other temporary files (optional)
+*.log
+*.tmp
