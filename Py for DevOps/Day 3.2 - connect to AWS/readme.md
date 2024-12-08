@@ -23,4 +23,12 @@
 
 ---
 
-## ⚠️ NB: from Day_3 I install WSL with Kali-Linux, so the code & commands is exclucively for Linux-(WSL). [How to install WSL](https://github.com/akashdip2001/kali-all-commands/blob/main/README.md#wsl) 
+#### ⚠️ NB: from Day_3 I install WSL with Kali-Linux, so the code & commands is exclucively for Linux-(WSL). [How to install WSL](https://github.com/akashdip2001/kali-all-commands/blob/main/README.md#wsl) 
+
+---
+
+# AWS [student](https://aws.amazon.com/education/awseducate/) account
+
+- [ ] first create a AWS [Free-Tier](https://aws.amazon.com/free) / student account.
+- [ ] Download [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions) to acces from Terminal.
+
