@@ -29,6 +29,8 @@
 
 # AWS [student](https://aws.amazon.com/education/awseducate/) account
 
-- [ ] first create a AWS [Free-Tier](https://aws.amazon.com/free) / student account.
-- [ ] Download [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions) to acces from Terminal. [help](./AWS-CLI-install-help.md)
+- first create a AWS [Free-Tier](https://aws.amazon.com/free) / student account.
+- Download [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions) to acces from Terminal. [help](./AWS-CLI-install-help.md)
+- go to aws --> Search -> IAM --> Creat a User -> user name: py-admin, user access to cinsole: ❌ no need GUI, bec I have CLI already --> add Policies: Amazon-S3-full-access ✅ (not found ? Search: s3), & Admin-access (AWS managed - job functions) ✅. --> Create user.
 
+- go to Security --> Access keys (0) --> create: use for: CLI.
