@@ -8,7 +8,7 @@
 10) [ ] Monitoring & Logging
 11) [ ] Advance Python for DevOps
 12) [ ] Python Libraries for DevOps
-13) [ ] Projects
+13) [x] Projects
 14) [x] Resources: ([pdf]() & [code](https://github.com/LondheShubham153/python-masterclass)) & Guide
 
 ---
