@@ -35,6 +35,8 @@ Ensure you have the necessary tools installed.
    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
    ```
 
+![Screenshot (472)](https://github.com/user-attachments/assets/78458cc0-26c0-47f3-9772-452038d5917b)
+
 2. **Verify the file exists:**
    ```bash
    ls -l awscliv2.zip
@@ -56,8 +58,29 @@ Ensure you have the necessary tools installed.
 
 ---
 
+### **3. Verify Ignored Files** ☀️
+Check which files will be ignored by running:
+
+```bash
+git status --ignored
+```
+
+This will display the files that are excluded by `.gitignore`.
+
+---
+
+### **Optional: Commit the `.gitignore`**
+If you want to track the `.gitignore` file in your repository:
+
+```bash
+git add .gitignore
+git commit -m "Add .gitignore to exclude AWS CLI installation files"
+```
+
 <details>	
- <summary><b>add Git ignore</b></summary><br>
+ <summary><b>☀️ add Git ignore</b></summary><br>
+
+☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️
 
 To add a `.gitignore` file to exclude certain files or directories from being tracked in Git, follow these steps:
 
@@ -93,29 +116,10 @@ awscliv2.zip
 ```
 
 Save and exit (`CTRL + O`, then `CTRL + X` in `nano`).
+
+☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️
+
 </details>
-
----
-
-### **3. Verify Ignored Files**
-Check which files will be ignored by running:
-
-```bash
-git status --ignored
-```
-
-This will display the files that are excluded by `.gitignore`.
-
----
-
-### **Optional: Commit the `.gitignore`**
-If you want to track the `.gitignore` file in your repository:
-
-```bash
-git add .gitignore
-git commit -m "Add .gitignore to exclude AWS CLI installation files"
-```
-
 
 ---
 
