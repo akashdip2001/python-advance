@@ -15,7 +15,7 @@
 
 # Python for DevOps Project
 
-- Backup of our Server ([code ?](./backup.py), [Backup location](../../Py%20for%20DevOps-Backup/) & [How to Un-Zip?](./un-zip.md))
+- Backup of our Server ([code ?](./backup.py) || [Backup location](../../Py%20for%20DevOps-Backup/) || [How to Un-Zip?](./un-zip.md))
 - Connecting python with AWS
 - storing `Backup` from Local to AWS `S3`
 - creating a flask-app to monitor our server.
