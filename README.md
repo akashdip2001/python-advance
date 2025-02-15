@@ -5,6 +5,17 @@
 | [notes](https://github.com/akashdip2001/ML-Machine-Learning/blob/main/py/README.md) | [Python Projects](https://github.com/akashdip2001/Python-Projects) | [Django Projects](https://github.com/akashdip2001/pyTweet) | [python-advance](https://github.com/akashdip2001/python-advance) |
 | --- | --- | --- | --- |
 
+[![Screenshot (135)](https://github.com/user-attachments/assets/4399f437-5b35-4d9e-9479-f171381937fc)](https://www.netacad.com/courses/programming/pcap-programming-essentials-python)
+[![Screenshot (136)](https://github.com/user-attachments/assets/77525285-1ac5-4b8e-b1be-69f477bbea2e)](https://pythoninstitute.org/pcep)
+
+</br>
+
+[![Screenshot (137)](https://github.com/user-attachments/assets/e2a5b1fc-6240-4d6a-9f79-479b8689a3af)](https://edube.org/study/pe2)
+[![Screenshot (138)](https://github.com/user-attachments/assets/91ee86a9-c5ab-4bcb-a29f-29d701c18106)](https://pythoninstitute.org/pcap)
+
+</br>
+</br>
+
 ## Create a pdf using Python
 
 ```python
