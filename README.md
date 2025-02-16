@@ -5,6 +5,15 @@
 | [notes](https://github.com/akashdip2001/ML-Machine-Learning/blob/main/py/README.md) | [Python Projects](https://github.com/akashdip2001/Python-Projects) | [Django Projects](https://github.com/akashdip2001/pyTweet) | [python-advance](https://github.com/akashdip2001/python-advance) |
 | --- | --- | --- | --- |
 
+
+</br>
+<div style="display: flex; align-items: center; gap: 10px;" align="center">
+<a href="https://www.linkedin.com/posts/akashdip2001_python-cisconetworkingacademy-openedg-activity-7296757851341959168-IhOj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQRwRQBthwu1pD7TKHPClAilXa9CMan1H8"><img src="https://github.com/user-attachments/assets/8378642d-b779-44ef-939b-dede8c8dc004" width="140px" height="140px" /></a> &nbsp; &nbsp;
+<a href="https://www.credly.com/badges/ee48f5b9-60c7-42a4-9ea4-4d9fee52d17b/public_url"><img src="https://github.com/user-attachments/assets/9d157163-1a6d-4d03-ae2b-0dbefb52b426" width="140px" height="140px" /></a> 
+</div>
+</br>
+</br>
+
 [![Screenshot (135)](https://github.com/user-attachments/assets/4399f437-5b35-4d9e-9479-f171381937fc)](https://www.netacad.com/courses/programming/pcap-programming-essentials-python)
 [![Screenshot (136)](https://github.com/user-attachments/assets/77525285-1ac5-4b8e-b1be-69f477bbea2e)](https://pythoninstitute.org/pcep)
 
